@@ -1,0 +1,23 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Blevs/webauth-iii-challenge.git",
+  "author": "Henry Blevins <heblevi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
