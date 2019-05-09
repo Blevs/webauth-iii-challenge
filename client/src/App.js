@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
-// import Users from './views/Users';
+import Users from './views/Users';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       </header>
       <Route path="/signup" component={SignUp}/>
       <Route path="/signin" component={SignIn}/>
-      {/* <Route path="/users" component={users}/> */}
+      <Route path="/users" component={Users}/>
     </div>
   );
 }
