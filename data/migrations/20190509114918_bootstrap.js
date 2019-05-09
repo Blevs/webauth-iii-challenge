@@ -8,6 +8,9 @@ exports.up = function(knex, Promise) {
     tbl
       .string('password')
       .notNullable();
+    tbl
+      .string('department')
+      .notNullable();
   });
 };
 
